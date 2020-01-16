@@ -8,7 +8,6 @@ rust:
 services: docker
 sudo: required
 
-
 env:
   global:
     - CRATE_NAME=apt
