@@ -10,6 +10,8 @@ main() {
         sort=gsort  # for `sort --sort-version`, from brew's coreutils.
     fi
 
+    dpkg -s libssl-dev
+
     # Builds for iOS are done on OSX, but require the specific target to be
     # installed.
     case $TARGET in
